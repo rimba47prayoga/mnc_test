@@ -87,5 +87,3 @@ def is_allowed_to_cuty(
         return False, f"Karena hanya boleh mengambil {total_personal_cuti} hari cuti"
     return True
 
-if __name__ == "__main__":
-    print(is_allowed_to_cuty(7, "2021-05-01", "2021-11-05", 1))
